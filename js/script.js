@@ -5,7 +5,7 @@ const jsGallery = document.querySelector(".js-gallery");
 const galleryList = galleryItems.map(({ preview, original, description }) => {
   return `<li class="gallery__item">
   <a class="gallery__link" href="${original}">
-  <img class="gallery__img" src="${preview}" data-source="${original}" alt="${description}" width="100%" >
+  <img class="gallery__image" src="${preview}" data-source="${original}" alt="${description}" >
   </a>
   </li>`
 });
